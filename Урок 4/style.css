@@ -1,0 +1,123 @@
+.list li:first-child {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.list li:last-child {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.list li {
+    background-color: lightblue;
+    width: 100px;
+    height: 30px;
+    list-style-type: none;
+    text-align: center;
+    border: 1px solid #000;
+}
+.list li a {
+    text-decoration: none;
+}
+.list li a:hover {
+    color: red;
+}
+.list li a:active {
+    color: green;
+}
+
+p:first-letter {
+    font-size: 30px;
+    color: brown;
+}
+
+body {
+    background: #f8f8f8;
+}
+
+.list {
+    list-style-type: none;
+    }
+
+.heading-1 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.short {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+.full {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.list2 {
+    color: blue;
+    font-size: 1.5em;
+    background-color: rgb(255, 235, 205);
+    border: 4px solid grey;
+    list-style: url(catalog/images/маркер.jpg);
+    }
+
+img[alt]:hover {
+    outline: none;
+}
+img[alt] {
+    outline: 4px solid green;
+}
+
+input[type="text"] {
+    color: saddlebrown;
+    font-size: medium;
+    border: 4px solid green;
+    height: 25px;
+    width: 300px;
+}
+
+select[name="topic"] {
+    color: saddlebrown;
+    font-size: medium;
+    border: 4px solid green;
+    height: 25px;
+    width: 300px;
+}
+textarea[name="message"] {
+    font-size: medium;
+    color: saddlebrown;
+    border: 4px solid green;
+    height: 200px;
+    width: 300px;
+    text-transform: capitalize;
+}
+
+p {
+    font-size: 14px;
+}
+
+h1 {
+    text-align: center;
+    background-color: lightsalmon;
+}
+.footer {
+    background-color: lightgrey;
+    height: 100px;
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50%;
+}
+td, th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}

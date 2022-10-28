@@ -1,0 +1,150 @@
+body {
+    background: #f8f8f8;
+}
+h1 {
+    text-align: center;
+    background-color: lightsalmon;
+}
+img[alt="Фото"] {
+    margin-left: 50px;
+    margin-right: 280px;
+    float: left;
+}
+.container {
+    width: 700px;
+   }
+.header {
+    height: 200px;
+    background-image: url(catalog/images/маркер.jpg);
+}
+.list li {
+    background-color: lightblue;
+    width: 100px;
+    height: 30px;
+    list-style-type: none;
+    text-align: center;
+    display: inline;
+    float: left;
+}
+.list li a {
+    text-decoration: none;
+}
+.list li a:hover {
+    color: red;
+}
+.list li a:active {
+    color: green;
+}
+.list a {
+    display: block;
+    width: 100%;
+    height: 50px;
+}
+.list li ul {
+    display: none;
+}
+.list li:hover ul {
+    display: block;
+}
+
+img[alt]:hover {
+    outline: none;
+}
+img[alt] {
+    outline: 4px solid green;
+}
+img[alt="Флорариум"] {
+    float: left;
+    margin-right: 50px;
+}
+p {
+    font-size: 14px;
+}
+p:first-letter {
+    font-size: 30px;
+    color: brown;
+}
+
+.heading-1 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.short {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+.full {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.list2 {
+    color: blue;
+    font-size: 1.5em;
+    background-color: rgb(255, 235, 205);
+    border: 4px solid grey;
+    list-style: url(catalog/images/маркер.jpg);
+    }
+
+input[type="text"] {
+    color: saddlebrown;
+    font-size: medium;
+    border: 4px solid green;
+    height: 25px;
+    width: 300px;
+}
+
+select[name="topic"] {
+    color: saddlebrown;
+    font-size: medium;
+    border: 4px solid green;
+    height: 25px;
+    width: 300px;
+}
+textarea[name="message"] {
+    font-size: medium;
+    color: saddlebrown;
+    border: 4px solid green;
+    height: 200px;
+    width: 300px;
+    text-transform: capitalize;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50%;
+}
+td, th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+.catalog {
+    margin-left: 100px;
+    padding-left: 50px;
+    float: left;
+}
+h2 {
+    text-align: center;
+}
+.footer {
+    background-color: lightgoldenrodyellow;
+    height: 100px;
+    width: 100%;
+    text-align: right;
+    float: right;
+    margin-top: 50px;
+    margin-right: 20px;
+    clear: both;
+}
+
